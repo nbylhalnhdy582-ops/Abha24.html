@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>السعودية بعيون التقنية 🇸🇦</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- القائمة -->
+<nav>
+    <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+    <ul class="nav-list">
+        <li><a href="#">الرئيسية</a></li>
+        <li><a href="#">الأماكن السياحية</a></li>
+        <li><a href="#">المنتزهات</a></li>
+        <li><a href="#">المزيد</a></li>
+    </ul>
+</nav>
+
+<!-- العناوين والفقرات -->
+<h1 id="main-title">السعودية بعيون التقنية 🇸🇦</h1>
+<h1 id="title">أبها 🇸🇦</h1>
+<h2>أجمل مدن الجنوب</h2>
+
+<p class="intro"><span class="highlight">أبها</span> مدينة رائعة تقع في منطقة عسير جنوب المملكة العربية السعودية، وتشتهر بمناخها المعتدل وطبيعتها الجبلية الساحرة.</p>
+
+<p class="red-text">أبها تضم العديد من الأماكن السياحية مثل:</p>
+
+<ul>
+    <li>جبل السودة 🌄</li>
+    <li>منتزه عسير الوطني 🌳</li>
+    <li>السوق الشعبي 🛍️</li>
+    <li>المطلات الجبلية ⛰</li>
+</ul>
+
+<!-- الصور -->
+<div class="images-container">
+    <div class="image-box">
+        <img src="pn.jpeg.JPG" alt="جبل السودة">
+        <p>جبل السودة</p>
+    </div>
+    <div class="image-box">
+        <img src="pn1.jpeg.JPG" alt="السوق الشعبي">
+        <p>السوق الشعبي</p>
+    </div>
+    <div class="image-box">
+        <img src="pn2.jpeg.JPG" alt="المطلات الجبلية">
+        <p>المطلات الجبلية</p>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const menuToggle = document.getElementById("mobile-menu");
+    const navList = document.querySelector(".nav-list");
+    menuToggle.addEventListener("click", function() {
+        navList.classList.toggle("active");
+    });
+});
+</script>
+
+</body>
+</html>
